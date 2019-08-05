@@ -1,0 +1,8 @@
+{
+  "pageOrientation": "portrait",
+  "navigationStyle": "default",
+  "navigationBarBackgroundColor":"#00f",
+  "usingComponents": {},
+  "navigationBarTitleText":"test"
+  
+}

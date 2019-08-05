@@ -1,0 +1,35 @@
+ 
+<scroll-view class="scroll" scroll-y="true">
+  <view class="separate"></view>
+  <view wx:for="{{carts}}">
+    <view class="cart_container">
+      <image class="item-select" bindtap="switchSelect" data-index="{{index}}" data-id="{{index}}" src="{{item.isSelect?'../../assets/icons/icon_radio3.png':'../../assets/icons/icon_radio4.png'}}" />
+
+      <image class="item-image" src="{{item.pic}}"></image>
+
+      <view class="column">
+        <text class="title">{{item.name}}</text>
+        <view class="row">
+          <text class="sku-price">￥</text>
+          <text class="sku-price">{{item.price}}</text>
+          <view class="sku">
+            <template is="quantity" data="{{ ...item.count, componentId: index }}" />
+          </view>
+        </view>
+
+      </view>
+    </view>
+    <view class="separate"></view>
+  </view>
+</scroll-view>
+<view class="bottom_total">
+  <view class="bottom_line"></view>
+
+  <view class="row">
+    <image class="item-allselect" bindtap="allSelect" src="{{isAllSelect?'../../assets/icons/icon_radio3.png':'../../assets/icons/icon_radio4.png'}}" />
+    <text class="small_text">全选</text>
+    <text>合计:￥ </text>
+    <text class="price">{{totalMoney}}</text>
+    <button class="button-red" bindtap="toBuy" formType="submit">去结算</button>
+  </view>
+</view>

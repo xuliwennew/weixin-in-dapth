@@ -1,0 +1,4 @@
+
+<view>
+   <c-item binddel="delCource" idx="{{index}}" title="{{item}}" wx:for="{{list}}"/>
+</view>

@@ -1,0 +1,8 @@
+<view class="nav">
+   <view class="list">
+      <view class="item">
+         <image src="../../assets/nav_img/computer.png"></image>
+         <text>电脑</text>
+      </view>
+   </view>
+</view>

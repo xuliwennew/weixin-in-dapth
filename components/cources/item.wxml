@@ -1,0 +1,6 @@
+
+<view class="item">
+   {{title}}
+
+   <text class="del" bindtap="delItem">x</text>
+</view>

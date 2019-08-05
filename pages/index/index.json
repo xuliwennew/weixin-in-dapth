@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "c-hello": "../../components/hello/hello" , 
+    "c-world": "../../components/world/world",         
+    "c-list":"../components/cources/list",
+    "c-test":"../../components/test/test",
+    "c-nav": "../../components/nav/nav"
+    }
+    
+}

@@ -1,0 +1,7 @@
+<navigator open-type="switchTab" url="/pages/logs/logs">
+  <button>转到List</button>
+</navigator>
+
+<button bindtap="gourl">转到List(编程式)</button>
+ 
+<my-hello/> 

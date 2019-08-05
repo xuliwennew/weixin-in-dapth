@@ -1,0 +1,13 @@
+/* components/cources/item.wxss */
+
+.item {
+  width:100%;
+  height:200rpx;
+  border-bottom: 2rpx dotted gray;
+  font-size: 60rpx
+}
+
+.del {
+  font-size: 60rpx;
+  color:red
+}

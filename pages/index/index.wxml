@@ -1,0 +1,33 @@
+<scroll-view bindscrolltoupper="upper" 
+bindscrolltolower="down"
+bindscroll ="scroll"
+scroll-with-animation scroll-into-view="{{view}}"  scroll-y style="height:300rpx">
+   <view id="a" class="item"></view>
+    <view id="b" class="item"></view>
+     <view id="c" class="item"></view>
+      <view id="d" class="item"></view>
+       <view id="e" class="item"></view>
+        <view id="f" class="item"></view>
+         <view id="g" class="item"></view>
+</scroll-view>
+
+<scroll-view   scroll-x style="white-space:nowrap">
+    <view id="a" bindtap="show" style="width:200rpx;height:200rpx;background:red;display:inline-block"></view>
+      <view id="b" bindtap="show"  style="width:200rpx;height:200rpx;background:yellow;display:inline-block"></view>
+       <view id="c" bindtap="show"  style="width:200rpx;height:200rpx;background:blue;display:inline-block"></view>
+        <view id="d" bindtap="show"  style="width:200rpx;height:200rpx;background:black;display:inline-block"></view>
+         <view id="e" bindtap="show"  style="width:200rpx;height:200rpx;background:pink;display:inline-block"></view>
+          <view id="f" bindtap="show"  id="b" style="width:200rpx;height:200rpx;background:green;display:inline-block"></view>
+</scroll-view>
+
+ <swiper display-multiple-items="2" indicator-dots="true" style="width:100%;height:380rpx">
+    <swiper-item style="width:100%;height:380rpx" wx:for="{{index_slides}}">
+    <image style="width:100%;display:block" src="{{item.slide_url}}" />
+    </swiper-item>
+ </swiper>
+
+ 
+ <movable-area style="width:100%;height:300rpx;background:red">
+   <movable-view direction="all" style="width:100rpx;height:100rpx;background:blue">
+   </movable-view>
+ </movable-area>

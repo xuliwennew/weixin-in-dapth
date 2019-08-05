@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/cart/cart",
+    "pages/list/list",
+    "pages/flexbox/flexbox",
+    "pages/test/test",
+    "pages/logs/logs"  
+  ],
+  "window": {
+    "enablePullDownRefresh": false,
+    "backgroundColorTop": "#00f",
+    "navigationStyle": "default",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#0f0",
+    "navigationBarTitleText": "首页",
+    "navigationBarTextStyle": "white"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+   
+    "backgroundColor": "#030",
+    "color": "#ccc",
+    "selectedColor": "#f00",
+    "position": "bottom",
+    "list": [
+      {
+        "selectedIconPath": "assets/tabs/geren.png",
+        "iconPath": "assets/tabs/geren0.png",
+        "pagePath": "pages/cart/cart",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "assets/tabs/jiaoshi.png",
+        "iconPath": "assets/tabs/jiaoshi0.png",
+        "pagePath": "pages/logs/logs",
+        "text": "日志"
+      }
+    ]
+  }
+}

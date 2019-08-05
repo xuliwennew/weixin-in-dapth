@@ -1,0 +1,5 @@
+/* components/hello/hello.wxss */
+
+.title {
+  font-size: 30px;
+}

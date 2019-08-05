@@ -1,0 +1,12 @@
+
+<text wx:if="true" >
+    {{ msg }}
+</text>
+<button data-title="您好" bindtap="show">click me!</button>
+
+<view  wx:for="{{list}}" wx:for-index="idx" wx:key="{{idx}}" wx:for-item="user">
+   {{user.name}} {{idx}}
+   <view wx:key="{{index}}"  wx:for="{{user.cources}}">
+      {{user.name}} : {{item}} {{index}}
+   </view>
+</view>

@@ -1,0 +1,46 @@
+.item:nth-last-of-type(1) {
+  background: red;
+  width:100%;
+  height:300rpx;
+}
+
+.item:nth-last-of-type(2) {
+  background: blue;
+  width:100%;
+  height:300rpx;
+}
+
+
+.item:nth-last-of-type(3) {
+  background: yellow;
+  width:100%;
+  height:300rpx;
+}
+
+
+.item:nth-last-of-type(4) {
+  background: pink;
+  width:100%;
+  height:300rpx;
+}
+
+
+.item:nth-last-of-type(5) {
+  background: darkblue;
+  width:100%;
+  height:300rpx;
+}
+
+
+.item:nth-last-of-type(6) {
+  background: rebeccapurple;
+  width:100%;
+  height:300rpx;
+}
+
+
+.item:nth-last-of-type(7) {
+  background: green;
+  width:100%;
+  height:300rpx;
+}
